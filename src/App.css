@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+    
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #FBFCFC;
+  font-size: 1.8em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1200px;
+  width: 75vw;
+  margin: 0 auto 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*-------------------------------Home------------------------------*/
+.nav-menu{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 4% 0 2% 0;
+  border-bottom: 1px solid #000;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.nav-menu__a{
+  text-decoration: none;
+  color: #808080;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-menu__a:hover{
+  color:black;
 }
+
+.nav-menu__li{
+  list-style-type: none;
+}
+
+.home{
+  display:flex;
+  justify-content: space-between;
+  padding: 5% 0 5% 0;
+}
+
+.photo__wrap{
+display:flex;
+justify-content: center;
+}
+
+.name, .photo, .speach{
+  width: 33%;
+}
+
+.name__h1{
+  font-size: 1.7em; 
+  font-weight: bold;
+}
+
+.photo__des{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.speach__position{
+  position: relative;
+  top:30%;
+  right:18%;
+}
+
+.speach__langswitch{
+  position: relative;
+  top:10%;
+  left:80%;
+  width: 100px;
+  transform: rotate(90deg);
+}
+
+.speach__a{
+  text-decoration: none;
+  color: #000;
+}
+
+ .toggleLang{
+  font-weight: bold;
+ }
+
+/*------------------------------About--------------------------------*/
+
+ .about{
+  background-color: #f2f3f4  ;
+ }
+
+ .about__h1{
+  border-bottom: 1px solid #000;
+  width: 200px;
+  font-size: 1.7em; 
+  margin-bottom: 8%;
+ }
+
+ .about__title{
+   display:flex;
+   justify-content: center;
+   padding-top: 4%;
+ }
+
+ .about__p{
+  text-align: center;
+  padding-bottom:8%;
+ }
+
+ 

@@ -1,8 +1,10 @@
 import React from 'react';
 import './reset.css';
 import './App.css';
-import Home from './components/Номе/Home';
-import About from './components/About/About';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Contacts from './components/Contacts';
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <>
       <Home/> 
       <About/>
+      <Skills/>
+      <Contacts/>
     </>
   );
 }

@@ -1,5 +1,5 @@
-import photo from './photo.png'
-import speech from './speech.png'
+import photo from './image/photo.png'
+import speech from './image/speech.png'
 
  const Home = () => {
     return(
@@ -29,7 +29,7 @@ import speech from './speech.png'
                         <a href="#" className="speach__a">RU|<span className="toggleLang">ENG</span></a>
                     </div>
                     <div className="speach__position">
-                        <img src={speech} alt="photo" className="speach__img" width="250px"></img>
+                        <img src={speech} alt="photo" className="speach__img" width="15em"></img>
                     </div>
                  </div>
             </div>

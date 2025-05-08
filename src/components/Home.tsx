@@ -9,7 +9,7 @@ import speech from './image/speech.png'
                 <li className="nav-menu__li"><a href="#home" className="nav-menu__a">Home</a></li>
                 <li className="nav-menu__li"><a href="#about" className="nav-menu__a">About me</a></li>
                 <li className="nav-menu__li"><a href="#skills" className="nav-menu__a">Skills</a></li>
-                <li className="nav-menu__li"><a href="#" className="nav-menu__a">Portfolio</a></li>
+                <li className="nav-menu__li"><a href="#portfolio" className="nav-menu__a">Portfolio</a></li>
                 <li className="nav-menu__li"><a href="#contacts" className="nav-menu__a">Contacts</a></li>
             </ul> 
         </nav>

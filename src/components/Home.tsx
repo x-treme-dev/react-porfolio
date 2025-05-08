@@ -3,17 +3,17 @@ import speech from './image/speech.png'
 
  const Home = () => {
     return(
-        <div className="container">
+        <div id="home"  className="container">
          <nav>
             <ul className="nav-menu">
-                <li className="nav-menu__li"><a href="#" className="nav-menu__a">Home</a></li>
-                <li className="nav-menu__li"><a href="#" className="nav-menu__a">About me</a></li>
-                <li className="nav-menu__li"><a href="#" className="nav-menu__a">Skills</a></li>
+                <li className="nav-menu__li"><a href="#home" className="nav-menu__a">Home</a></li>
+                <li className="nav-menu__li"><a href="#about" className="nav-menu__a">About me</a></li>
+                <li className="nav-menu__li"><a href="#skills" className="nav-menu__a">Skills</a></li>
                 <li className="nav-menu__li"><a href="#" className="nav-menu__a">Portfolio</a></li>
-                <li className="nav-menu__li"><a href="#" className="nav-menu__a">Contacts</a></li>
+                <li className="nav-menu__li"><a href="#contacts" className="nav-menu__a">Contacts</a></li>
             </ul> 
         </nav>
-        <main>
+       
             <div className="home">
                 <div className="name">
                     <h1 className="name__h1">Igor'<br/>Yurchenko</h1>
@@ -29,11 +29,11 @@ import speech from './image/speech.png'
                         <a href="#" className="speach__a">RU|<span className="toggleLang">ENG</span></a>
                     </div>
                     <div className="speach__position">
-                        <img src={speech} alt="photo" className="speach__img" width="15em"></img>
+                        <img src={speech} alt="photo" className="speach__img"></img>
                     </div>
                  </div>
             </div>
-        </main>
+      
         </div>
     );
 }
